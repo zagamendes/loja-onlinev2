@@ -1,0 +1,8 @@
+.smallCard {
+  width: 265px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #efefef;
+  padding: 10px;
+  column-gap: 10px;
+}

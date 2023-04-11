@@ -1,0 +1,16 @@
+.ctn-shelf {
+  width: 260px;
+}
+.ctn-shelf-img img {
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 414px) {
+  .ctn-shelf {
+    width: 100%;
+  }
+  .ctn-shelf-img img {
+    height: 450px;
+  }
+}

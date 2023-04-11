@@ -1,0 +1,12 @@
+.containerSideBarAdmin {
+  width: 250px;
+  min-height: 100vh;
+  background-color: #4c4c4c;
+}
+
+@media (max-width: 414px) {
+  .containerSideBarAdmin {
+    width: 100%;
+    min-height: auto;
+  }
+}

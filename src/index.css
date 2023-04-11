@@ -1,0 +1,30 @@
+.max-width-700 {
+  max-width: 700px;
+}
+.column-gap-16 {
+  column-gap: 16px;
+}
+.row-gap-16 {
+  row-gap: 16px;
+}
+.slick-slider.slick-initialized {
+  width: 100%;
+}
+.slick-arrow.slick-prev::before,
+.slick-arrow.slick-next::before {
+  color: #4c4c4c;
+  font-size: 30px;
+}
+
+.slick-arrow.slick-prev {
+  left: -40px;
+}
+.slick-arrow.slick-next {
+  right: 40px;
+}
+@media (max-width: 414px) {
+  .banner-principal {
+    height: 450px;
+    object-fit: cover;
+  }
+}
